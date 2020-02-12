@@ -7,15 +7,15 @@ import java.math.BigDecimal;
  * @Description:
  * @Date: Create in 下午 01:50 2020/2/12
  */
-public class Cashier {
-    private BigDecimal cashierId;
+public class Cashiers {
+    private int cashierId;
     private String cashierName;
 
-    public BigDecimal getCashierId() {
+    public int getCashierId() {
         return cashierId;
     }
 
-    public void setCashierId(BigDecimal cashierId) {
+    public void setCashierId(int cashierId) {
         this.cashierId = cashierId;
     }
 

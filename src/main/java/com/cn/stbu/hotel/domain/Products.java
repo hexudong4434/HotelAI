@@ -7,18 +7,18 @@ import java.math.BigDecimal;
  * @Description:
  * @Date: Create in 下午 01:58 2020/2/12
  */
-public class Product {
-    private BigDecimal productId;
+public class Products {
+    private int productId;
     private String pName;
-    private BigDecimal classId;
+    private int classId;
     private BigDecimal sale;
-    private BigDecimal pSurplus;
+    private int pSurplus;
 
-    public BigDecimal getProductId() {
+    public int getProductId() {
         return productId;
     }
 
-    public void setProductId(BigDecimal productId) {
+    public void setProductId(int productId) {
         this.productId = productId;
     }
 
@@ -30,11 +30,11 @@ public class Product {
         this.pName = pName;
     }
 
-    public BigDecimal getClassId() {
+    public int getClassId() {
         return classId;
     }
 
-    public void setClassId(BigDecimal classId) {
+    public void setClassId(int classId) {
         this.classId = classId;
     }
 
@@ -46,11 +46,11 @@ public class Product {
         this.sale = sale;
     }
 
-    public BigDecimal getpSurplus() {
+    public int getpSurplus() {
         return pSurplus;
     }
 
-    public void setpSurplus(BigDecimal pSurplus) {
+    public void setpSurplus(int pSurplus) {
         this.pSurplus = pSurplus;
     }
 }

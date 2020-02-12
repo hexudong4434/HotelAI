@@ -8,53 +8,53 @@ import java.sql.Timestamp;
  * @Description:
  * @Date: Create in 下午 01:55 2020/2/12
  */
-public class PayRecord {
-    private BigDecimal payRecordId;
-    private BigDecimal userId;
-    private BigDecimal productId;
-    private BigDecimal cashierId;
-    private BigDecimal amount;
+public class PayRecords {
+    private String payRecordId;
+    private int userId;
+    private int productId;
+    private int cashierId;
+    private int amount;
     private BigDecimal money;
     private Timestamp payTime;
-    private String pDescribe;
+    private String description;
 
-    public BigDecimal getPayRecordId() {
+    public String getPayRecordId() {
         return payRecordId;
     }
 
-    public void setPayRecordId(BigDecimal payRecordId) {
+    public void setPayRecordId(String payRecordId) {
         this.payRecordId = payRecordId;
     }
 
-    public BigDecimal getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(BigDecimal userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
-    public BigDecimal getProductId() {
+    public int getProductId() {
         return productId;
     }
 
-    public void setProductId(BigDecimal productId) {
+    public void setProductId(int productId) {
         this.productId = productId;
     }
 
-    public BigDecimal getCashierId() {
+    public int getCashierId() {
         return cashierId;
     }
 
-    public void setCashierId(BigDecimal cashierId) {
+    public void setCashierId(int cashierId) {
         this.cashierId = cashierId;
     }
 
-    public BigDecimal getAmount() {
+    public int getAmount() {
         return amount;
     }
 
-    public void setAmount(BigDecimal amount) {
+    public void setAmount(int amount) {
         this.amount = amount;
     }
 
@@ -74,11 +74,11 @@ public class PayRecord {
         this.payTime = payTime;
     }
 
-    public String getpDescribe() {
-        return pDescribe;
+    public String getDescription() {
+        return description;
     }
 
-    public void setpDescribe(String pDescribe) {
-        this.pDescribe = pDescribe;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

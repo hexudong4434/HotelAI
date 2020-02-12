@@ -8,16 +8,16 @@ import java.math.BigDecimal;
  * @Date: Create in 下午 01:54 2020/2/12
  */
 public class FaceInfo {
-    private BigDecimal faceInfoId;
+    private String faceInfoId;
     private String imgName;
     private String faceImgPath;
     private String faceFeature;
 
-    public BigDecimal getFaceInfoId() {
+    public String getFaceInfoId() {
         return faceInfoId;
     }
 
-    public void setFaceInfoId(BigDecimal faceInfoId) {
+    public void setFaceInfoId(String faceInfoId) {
         this.faceInfoId = faceInfoId;
     }
 

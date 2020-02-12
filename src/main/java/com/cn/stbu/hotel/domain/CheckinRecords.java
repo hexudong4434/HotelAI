@@ -8,35 +8,35 @@ import java.sql.Timestamp;
  * @Description:
  * @Date: Create in 下午 01:51 2020/2/12
  */
-public class CheckinRecord {
-    private BigDecimal CIId;
-    private BigDecimal userId;
-    private BigDecimal status;
+public class CheckinRecords {
+    private String CIId;
+    private int userId;
+    private int status;
     private Timestamp ciTime;
     private Timestamp coTime;
     private String cDescribe;
 
-    public BigDecimal getCIId() {
+    public String getCIId() {
         return CIId;
     }
 
-    public void setCIId(BigDecimal CIId) {
+    public void setCIId(String CIId) {
         this.CIId = CIId;
     }
 
-    public BigDecimal getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(BigDecimal userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
-    public BigDecimal getStatus() {
+    public int getStatus() {
         return status;
     }
 
-    public void setStatus(BigDecimal status) {
+    public void setStatus(int status) {
         this.status = status;
     }
 

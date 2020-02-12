@@ -7,23 +7,23 @@ import java.math.BigDecimal;
  * @Description:
  * @Date: Create in 下午 02:02 2020/2/12
  */
-public class User {
-    private BigDecimal userId;
+public class Users {
+    private int userId;
     private String username;
     private String password;
     private String realName;
-    private BigDecimal age;
-    private BigDecimal limitId;
-    private BigDecimal faceInfoId;
+    private int age;
+    private int limitId;
+    private String faceInfoId;
     private String IDCard;
     private String phone;
     private String address;
 
-    public BigDecimal getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(BigDecimal userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
@@ -51,27 +51,27 @@ public class User {
         this.realName = realName;
     }
 
-    public BigDecimal getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(BigDecimal age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
-    public BigDecimal getLimitId() {
+    public int getLimitId() {
         return limitId;
     }
 
-    public void setLimitId(BigDecimal limitId) {
+    public void setLimitId(int limitId) {
         this.limitId = limitId;
     }
 
-    public BigDecimal getFaceInfoId() {
+    public String getFaceInfoId() {
         return faceInfoId;
     }
 
-    public void setFaceInfoId(BigDecimal faceInfoId) {
+    public void setFaceInfoId(String faceInfoId) {
         this.faceInfoId = faceInfoId;
     }
 

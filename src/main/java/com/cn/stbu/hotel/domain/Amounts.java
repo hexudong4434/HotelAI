@@ -7,25 +7,25 @@ import java.math.BigDecimal;
  * @Description:
  * @Date: Create in 下午 01:31 2020/2/12
  */
-public class Amount {
-    private BigDecimal amountId;
-    private BigDecimal userId;
+public class Amounts {
+    private int amountId;
+    private int userId;
     private BigDecimal balance;
     private BigDecimal oweMoney;
 
-    public BigDecimal getAmountId() {
+    public int getAmountId() {
         return amountId;
     }
 
-    public void setAmountId(BigDecimal amountId) {
+    public void setAmountId(int amountId) {
         this.amountId = amountId;
     }
 
-    public BigDecimal getUserId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setUserId(BigDecimal userId) {
+    public void setUserId(int userId) {
         this.userId = userId;
     }
 
