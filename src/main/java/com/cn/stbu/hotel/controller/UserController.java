@@ -1,9 +1,6 @@
 package com.cn.stbu.hotel.controller;
 
-import com.cn.stbu.hotel.domain.Users;
-import com.cn.stbu.hotel.mapper.UserMapper;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
+
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -16,12 +13,4 @@ import java.util.List;
 @RestController
 public class UserController {
 
-    @Autowired
-    UserMapper userMapper;
-    @RequestMapping("/users")
-    public List<Users> getUser(){
-        List<Users> list;
-        list=userMapper.getUsers();
-        return list;
-    }
 }
